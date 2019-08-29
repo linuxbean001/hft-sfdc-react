@@ -1,0 +1,58 @@
+.L-header{
+    background: #00659c !important;
+}
+.logo {
+    width: 219px;
+    margin-top: -25px;
+}
+
+thead {
+    background-color: #e6e6e6;
+    font-weight: 700 !important;
+}
+
+.status {
+    text-align: right;
+}
+.radio_hide{display: none;}
+label.option-label {
+    margin: 10px 25px 3px 0px;
+    cursor: pointer;
+}
+input[type="radio"] + .label-text:before{
+	content: "\f10c";
+	font-family: "FontAwesome";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing:antialiased;
+	width: 1em;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+input[type="radio"]:checked + .label-text:before{
+	content: "\f192";
+	color: #8e44ad;
+	animation: effect 250ms ease-in;
+}
+
+input[type="radio"]:disabled + .label-text{
+	color: #aaa;
+}
+
+input[type="radio"]:disabled + .label-text:before{
+	content: "\f111";
+	color: #ccc;
+}
+span.text-01 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.radio-group {
+	font-weight: 700;
+}

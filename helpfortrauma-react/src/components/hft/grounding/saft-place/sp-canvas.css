@@ -1,0 +1,410 @@
+.toolbar__box--middle-left { 
+    position: absolute;
+    z-index: 10;
+    left: 3px;
+    top: 60px;
+    
+}
+.tools__menu {
+    padding: 2px;
+    position: relative;
+    width: 100%;
+	list-style: none;
+}
+.tools__item:first-child {
+    margin-top: 0;
+}
+.tools__item {
+    margin-top: 5px;
+    position: relative;
+    border-radius: 8px;
+}
+.tools__item--button {
+    width: 42px;
+    height: 42px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+}
+.tools__item--button img {
+    display: inline-block;
+    padding: 5px;
+    max-width: 42px;
+    min-width: 42px;
+    min-height: 42px;
+    max-height: 42px;
+}
+.toolbar--vertical {
+    width: 42px;
+    height: auto;
+}
+
+.toolbar {
+    background-color: #f0f0f0;
+    border: 1px solid #dddddd;
+    height: auto;
+    border-radius: 8px;
+}
+.fadeInUp--mobile {
+    animation: none;
+}
+.mobile--hidden {
+    display: -ms-flexbox;
+    display: flex;
+}
+li.tools__item:hover {
+    background: #ddd;
+}
+
+.toolbox {
+    position: absolute;
+    top: -12px;
+    left: 54px;
+    border-radius: 24px;
+    background-color: #f0f0f0;
+    border: solid 1px #dddddd;
+    padding: 10px;
+    white-space: nowrap;
+    z-index: 100;
+}
+.fadeInLeft {
+    animation: fadeInLeft .350s ease-in-out;
+  min-width: 200px;
+    width: auto;
+}
+.main-canvas-container.col-md-10 {
+   
+}
+.image-upload > input
+{
+    display: none;
+}
+
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.tools__item--button_box {
+        float: left;
+    padding: 5px;
+    font-size: 22px;
+    display: flex;
+    cursor: pointer;
+}
+.toolbox__separator {
+    height: 1px;
+    border-radius: 0.5px;
+    background-color: #dddddd;
+    margin: 5px 5px;
+}
+.slider-px {
+    width: 100%;
+    
+}
+.slider {
+        background: none !important;
+}
+.canvas-head {
+    min-height: 62px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.drawing_title {
+    color: #555;
+    padding: 7px 5px;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+   
+}
+#board-menus #collaborate-button {
+    border: 1px solid #fff;
+}
+.toolbar--big {
+    height: 50px;
+}
+.toolbar__button--colored {
+    background-color: #56C376;
+    border-color: #56C376;
+    color: #fff;
+}
+.toolbar__button {
+    pointer-events: all;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 0 15px;
+    position: relative;
+    height: 48px;
+    background-color: #f0f0f0;
+    border: 1px solid #dddddd;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+}
+.canvas-head .canvas-hd-pd{padding: 0px 10px;}
+.canvas-head .navbar{ background-color: #fff; }
+.canvas-head .navbar-inverse {
+    background-color: #fff; 
+    border-color: #080808;
+}
+.canvas-head .navbar .navbar-nav > li > a:hover {
+    color: #000;
+    font-size: 13px;
+}
+.canvas-head .navbar-inverse .navbar-brand {
+    color: #ddd;
+}
+.canvas-head .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #000;
+}
+.canvas-head .navbar .navbar-nav > li > a {
+    color: #000;
+}
+.canvas-head .navbar-nav li:hover{ background-color: #ddd; color: #000;}
+
+.canvas-head .navbar .navbar-collapse, .navbar .navbar-form {
+    border-color: #fff;
+}
+.canvas-head .navbar .navbar-collapse {
+    background: #fff;
+    height: auto;
+    border-radius: 8px;
+}
+.canvas-head .navbar-expand-md .navbar-toggler {
+    display: none;
+}
+.toggle-icon-mobile {
+    font-size: 22px;
+    float: right;
+    padding: 10px;
+    color: #000;
+}
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
+ .fa-minus{
+        -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.isSelected {
+ background-color: rgb(204, 204, 204);
+    color: #000;
+}
+.funBtn{padding: 10px 20px;}
+img.react-viewer-image.drag {
+    background: #ffffff;
+}
+.fadeInLeft .tools__item--button{display: table-cell;}
+.addColorBtn{margin-bottom: 60px;}
+.sketch-picker :nth-child(1){border-radius: 50% !important;}
+.flexbox-fix:nth-child(3){display: none !important}
+.flexbox-fix:nth-child(4){display: none !important}
+.drawing-container{position: absolute;
+    z-index: 999;
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+    right: 16px;
+    bottom: 0px;
+}
+
+.c-img {
+      height: 100%;
+   width: 100%;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 3px 1px 1px #999;
+
+}
+a.cross-btn {
+    position: absolute;
+    right: 0;
+    top:0;
+    color: #777;
+    font-size: 20px;
+    
+}
+.c-img img{
+    height: 100%;
+    width: 100%;
+}
+.alice-carousel {
+    padding: 15px 30px !important;
+}
+.alice-carousel__wrapper {
+    border: none !important;
+    
+}
+.padd-top{padding-top: 20px;}
+.alice-carousel__prev-btn-item, .alice-carousel__next-btn-item {
+     border: none !important; 
+}
+.labal-tx {
+   background: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    border-radius: 0px 0px 10px 10px;
+    padding: 5px 0px;
+    position: relative;
+    top: -26px;
+}
+.backend-div-drawing {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000006b;
+    z-index: 999;
+}
+.alice-carousel__dots{display: none !important;}
+span.navbar-brand.canvas-title {
+    text-transform: capitalize;
+}
+.icon-flipped {
+    -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+.canvas-head .navbar .navbar-nav > li > a {
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+} 
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.ishidden{display: block}
+.isShow{display: none;}
+.canvas_sider .alice-carousel__stage-item {
+    margin: 2px;
+    height: 100px !important;
+}
+.check_btn{color:green}
+.cross_btn{color:red}
+span.t_s {
+    display: table-cell;
+    padding: 3px 2px;
+}
+span.t_s input{
+    padding: 3px;
+    height: 25px;
+
+}
+.toolbar__box--bottom-left {
+    position: fixed;
+    z-index: 10;
+    left: 12px;
+    bottom: 12px;
+}
+
+.flex--middle {
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.pagination {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    line-height: 1;
+    padding: 10px;
+    margin: 0;
+}
+.pagination .arrow--left {
+    margin-right: 8px;
+}
+.pagination .arrow {
+    cursor: pointer;
+}
+.pagination--boards {
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #b3b3b3;
+}
+.pagination .arrow--right {
+    margin-left: 8px;
+}
+
+.canvas-head #collapsibleNavbar .navbar-right li {
+    float: left;
+    padding: 10p;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.eventTitle{
+       position: fixed;
+    z-index: 10;
+    left: 128px;
+    bottom: 10px;
+    font-size: 15px;
+    background: #555;
+    padding: 5px;
+    border-radius: 10px;
+    color: #ccc;
+    font-weight: 700;
+    font-style: italic;
+}
+
+@media screen and (max-width: 767px) {
+ .navbar-expand-md .navbar-toggler {
+    display: block;
+}
+.alice-carousel__stage-item {
+    width: 100% !important;
+    
+}
+}

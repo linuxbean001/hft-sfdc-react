@@ -1,0 +1,200 @@
+.padding-0 {
+    padding: 0;
+}
+
+.colorPick {
+    padding: 5px;
+    padding-left: 20px;
+}
+
+.btn-space {
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.dialogue-list {
+    border: 1px solid black;
+    margin-bottom: 10px;
+    width: 100%;
+    float: left;
+}
+
+.ed-canvas-style {
+    background: url(/static/media/bg.be9b0b33.svg) #f9f9f9 repeat;
+    background-size: 40px 40px;
+    width: 100%;
+    height: 100%;
+}
+.ed-canvas-style .col-md-3.sidebar {
+    border: 1px solid #dddddd;
+    background: transparent;
+}
+.ed-canvas-style .col-md-3.sidebar {
+    max-width: 280px;
+    position: relative;
+}
+.ed-canvas-style li.active a, .ed-canvas-style li.active {
+    background: #D6D6D6 !important;
+}
+.ed-canvas-style .tabs-left>li>a {
+    border-radius: 0px;
+    margin-right: 0;
+    display: block;
+    padding: 5px;
+    max-width: 42px;
+    min-width: 42px;
+    min-height: 42px;
+    max-height: 42px;
+}
+
+.ed-canvas-style .tabs-left {
+    padding-top: 0px;
+}
+
+.ed-canvas-style .back-gr {
+    background: #000000d4;
+    background-color: #f0f0f0;
+    border-right: 1px solid #dddddd;
+}
+
+.ed-canvas-style .canvas-container, .ed-canvas-style .lower-canvas, .ed-canvas-style .upper-canvas {
+    width: 75% !important;
+    background: transparent !important;
+}
+
+.ed-canvas-style .nav-tabs>li>a:hover {
+    border-color: transparent;
+    color: #e74c3c !important;
+}
+
+.ed-canvas-style .dialogues.form-group {
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-bottom: 0px;
+}
+.ed-canvas-style .dialogue-list {
+    border: 1px solid #dddddd;
+    padding: 15px 15px 15px 15px;
+    margin-bottom: 10px;
+}
+
+.ed-canvas-style .dialogues.form-group h4 {
+    cursor: pointer;
+}
+
+.conversation-message .message-text {
+    padding: 6px 12px;
+    border-radius: 5px !important;
+    overflow: hidden;
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.conversation-message.right .message-text {
+    background-color: #dbf5fd;
+    margin-right: -20px;
+}
+.conversation-message.left .message-text {
+    background-color: #f0f3f8;
+    margin-left: -20px;
+}
+.canvas-dialogue-container {
+    padding: 50px 100px;
+}
+
+.dialogue-list h4 {
+    float: left;
+    margin-bottom: 0px !important;
+    line-height: 28px;
+    font-size: 15px;
+}
+.dialogue-list-config {
+    float: right;
+}
+.ed-canvas-style .dialogue-list>div:nth-child(2) {
+    float: right;
+}
+.ed-canvas-style button:hover {
+	opacity: .8;
+	background: #f0ad4e;
+}
+.canvas-dialogue-container-input textarea {
+    border: 1px solid #dddddd;
+    padding: 15px 15px 15px 15px;
+    width: 100%;
+}
+.ed-canvas-style button {
+    margin-bottom: 0px;
+    cursor: pointer !important;
+    z-index: 99999;
+    position: relative;
+    background: #f0ad4e;
+    border-color: #f0ad4e;
+}
+
+.conversation-message .message-text span {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+}
+.conversation-message .message-text span:hover:after {
+    display: inline-block;
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f1f8";
+    position: absolute;
+    right: 0px;
+}
+.canvas-dialogue-container-input h2 {
+    font-size: 20px;
+}
+
+.ed-canvas-style .tabs-left>li>a i {
+    font-size: 18px;
+    color: #555;
+    line-height: 29px;
+}
+
+.Profile-Management h3{
+    margin: 30px 0;
+}
+
+.canvas-container-custom {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+.canvas-dialogue-videos img {
+    max-width: 280px;
+}
+
+.canvas-dialogue-videos{
+    max-width: 800px;
+    margin: 50px auto;
+}
+.canvas-dialogue-videos h2 {
+    margin-bottom: 30px;
+}
+.canvas-dialogue-videos h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+@media screen and (max-width: 991px){
+    .canvas-dialogue-videos .col-md-6 {
+        width: 50%;
+        float: left;
+    }
+    .canvas-dialogue-videos img {
+        max-width: 150px;
+    }
+    .canvas-dialogue-videos h3 {
+        display: inline-block;
+        width: 100%;
+    }
+}

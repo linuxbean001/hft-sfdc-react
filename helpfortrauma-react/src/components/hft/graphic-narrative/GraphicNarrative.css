@@ -1,0 +1,125 @@
+ul.support-list {
+  text-align: left;
+}
+ul.support-list li {
+  margin-left: 0px; 
+}
+.openModal-style h1{
+	font-size: 25px
+}
+.openModal-style .close-openModal{
+	font-size: 26px;
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    top: 15px;
+}
+.openModal-style {
+    padding: 50px 20px;
+}
+.event_btn_custom.pull-right.event_btn>div>div {
+    position: absolute !important;
+}
+
+.col-md-3 .row-custom {
+    margin-left: -15px !important;
+}
+.col-md-9 .row-custom {
+    margin-right: -15px !important;
+}
+
+
+.progress-indicator {
+    margin: 0;
+    padding: 15px 0 0;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+.progress-indicator {
+    cursor: pointer;
+}
+ .progress-indicator>li {
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    flex: 1;
+}
+.progress-indicator>li {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 0 0 10px 0;
+    margin: 0;
+    position: relative;
+    text-overflow: ellipsis;
+    display: block;
+}
+.progress-indicator>li.completed {
+    color: #65d074;
+}
+.progress-indicator.stacked>li {
+    text-indent: 0px;
+    text-align: center;
+    display: block;
+}
+
+.lesson-bubble {
+    margin: 0 0px!important;
+}
+.progress-indicator>li .bubble {
+    border-radius: 1000px;
+    width: 24px;
+    height: 24px;
+    background-color: #bbb;
+    display: block;
+    margin: 0 auto .5em;
+    border-bottom: 1px solid #888;
+    float: left;
+}
+.progress-indicator.stacked .stacked-text {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0px;
+    width: calc(100% - 50px) !important;
+    display: inline-block;
+    text-align: left;
+    line-height: 1.3;
+    color: #333;
+}
+.progress-indicator.stacked .stacked-text.lesson-stacked-text {
+    margin-left: 0px!important;
+}
+.progress-indicator.stacked>li a.active span {
+    color: #65d074;
+}
+.progress-indicator.stacked>li a.active span.bubble {
+    color: #65d074;
+    background: #65d074;
+    border-bottom: 1px solid #65d074;
+}
+ul.progress-indicator.stacked {
+    padding: 20px;
+    float: left;
+    width: 100%;
+}
+.tabs-active-content p {
+    margin: 0 0 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.event_btn_custom{
+    padding-right: 15px;
+}
+
+p {
+    font-family: Roboto;
+}
+.panel-body.ng-binding p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.pull-right.event_btn {
+    padding-right: 15px;
+}

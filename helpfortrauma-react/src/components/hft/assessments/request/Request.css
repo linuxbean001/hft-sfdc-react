@@ -1,0 +1,75 @@
+.assessments-Request {
+    margin-top: 30px;
+}
+.assessments-Request-style-right {
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #001;
+    padding: 30px 20px;
+    line-height: 1.5;
+}
+.assessments-Request-style {
+    padding-right: 70px !important;
+}
+.assessments-Request-style-right-bottom {
+    text-align: right;
+}
+.assessments-Request-style-right-bottom .checkmark {
+    left: 80px;
+}
+
+.assessments-Request-style-bottom button {
+    width: 180px;
+    background: #27a744;
+    color: #fff;
+    height: 43px;
+    font-size: 15px;
+    border: 0px;
+    padding-top: 0px;
+    float: left;
+}
+
+.assessments-Request-style-bottom input[type="text"] {
+    width: calc(100% - 180px);
+    float: left;
+    margin: 0px;
+    height: 43px;
+    border-radius: 0px;
+}
+
+@media screen and (max-width: 991px){
+	.assessments-Request-style-bottom, .search-container {
+	    width: 100%;
+	    float: left;
+        padding: 0px;
+	}
+	.assessments-Request-style-right-bottom {
+	    text-align: left;
+	    float: left;
+	    width: 100%;
+        padding: 0px;
+        margin-top: 30px;
+	}
+	.assessments-Request-style-right-bottom .checkmark {
+	    left: 0px;
+	}
+}
+@media screen and (max-width: 491px){
+	.assessments-Request-style-bottom button {
+	    width: 150px;
+	    background: #27a744;
+	    color: #fff;
+	    height: 43px;
+	    font-size: 13px;
+	    border: 0px;
+	    padding-top: 0px;
+	    float: left;
+	}
+	.assessments-Request-style-bottom input[type="text"] {
+	    width: calc(100% - 150px);
+	    float: left;
+	    margin: 0px;
+	    height: 43px;
+	    border-radius: 0px;
+	}
+}

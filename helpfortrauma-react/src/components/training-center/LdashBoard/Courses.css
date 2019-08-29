@@ -1,0 +1,15 @@
+.content{float: left;}
+.card-text{
+    overflow: hidden;
+   height: 126px;
+}
+span.font-14 {
+    font-size: 14px;
+    padding: 8px 10px;
+    float: left;
+}
+.minHeight{
+    height: 300px;
+    overflow: hidden;
+}
+.height-40{height: 30px;}

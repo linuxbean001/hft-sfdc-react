@@ -1,0 +1,86 @@
+.videosSB > .inner {
+    height: 100%;
+    padding: 15px;
+    background: rgba(86,61,124,1);
+    color: #ffffff;
+}
+
+.videoWrap {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+}
+.videoWrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.entry-title > a {
+    color: inherit;
+}
+.entry-header h3 {
+    margin-top: 8px;
+}
+h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+.videosSB a {
+    color: #ffffff !important;
+    font-size: 14px;
+}
+.videoTag {
+    border: 1px solid #b5b5b5;
+    border-radius: 4px;
+    color: #222222;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 8px 4px 0px;
+    padding: 4px;
+    width: auto;
+}
+.filterTitle {
+    font-size: 120%;
+    margin-top: 20px;
+}
+.videoContent > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.container-video .post.hentry {
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none !important;
+}
+
+.paginationWrap {
+    padding: 0 15px;
+    text-align: center;
+    margin: 0 auto !important;
+    width: 100%;
+    display: inline-block;
+    float: none;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    list-style: none;
+    border-radius: .25rem;
+}
+.paginationWrap span, .paginationWrap a {
+    padding: 4px;
+}

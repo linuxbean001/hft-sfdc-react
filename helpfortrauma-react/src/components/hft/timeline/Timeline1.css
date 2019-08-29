@@ -1,0 +1,37 @@
+.head_div{
+  margin-bottom: 25px; 
+  border-bottom: 1px dashed #ccc;
+}
+.head_title{
+  font-size: 25px;
+  color: #6f42c1;
+  font-weight: 600;
+  padding-left: 20px;
+  font-family: Oswald;
+}
+.event_btn{
+  padding: 8px 10px;
+}
+.text_cont{
+  font-weight: 100 !important;
+}
+.portlet-content button{margin:0px 7px;}
+.btn-yellow{background: #efc11b;padding: 7px 7px;}
+.btn-red{background: #e74c3c;padding: 7px 7px;}
+.btn-blue{background: #1f09969c;color:#fff;padding: 7px 7px;}
+.timeline-list{font-size:14px !important;}
+.icon_font{font-size: 20px;position: relative;top: -21px;color: #fff;}
+.icon_font span {
+  margin: 10px;
+  cursor: pointer;
+  color:#373333;
+}
+.panel-body-video {
+  padding: 0px;
+}
+
+.static-modal-confirm .modal-dialog {
+    width: 350px;
+    margin: 131px auto;
+}
+

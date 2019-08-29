@@ -1,0 +1,33 @@
+.FindProfessionalInfo .head_title {
+    font-size: 25px;
+    color: #00659c;
+    font-weight: 600;
+    padding-left: 0px;
+    font-family: Oswald;
+}
+.LearningDashboard-body p {
+    font-size: 20px;
+    line-height: 1.2;
+}
+.LearningDashboard-body h3 {
+    margin-top: 20px;
+}
+.LearningDashboard-body-1 {
+    height: 215px;
+    overflow: hidden;
+}
+.LearningDashboard-body-2 {
+    padding: 20px !important;
+}
+.LearningDashboard-body-3 {
+    border: 1px solid #ccc;
+}
+.LearningDashboard-body-2 button.btn.btn-primary {
+    margin-top: 20px;
+}
+.LearningDashboard-body p.p_small {
+    font-size: 15px;
+    line-height: 1;
+    margin-top: 5px;
+    display: inline-block;
+}

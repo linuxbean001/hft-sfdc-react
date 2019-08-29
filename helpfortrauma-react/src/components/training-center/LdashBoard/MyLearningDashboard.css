@@ -1,0 +1,65 @@
+.MyLearningDashboard-body-left-c img {
+    max-width: 100%;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+
+.MyLearningDashboard-body .input-range {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.MyLearningDashboard-body .input-range__slider {
+    height: 15px;
+    margin-top: -12px;
+    width: 15px;
+    background: #337ab7;
+    border: 1px solid #337ab7;
+}
+.MyLearningDashboard-body .input-range__track {
+    height: 10px;
+}
+.MyLearningDashboard-progressBar-leftMargin .input-range__track{
+    margin-left: 4px;
+}
+.MyLearningDashboard-body .input-range__track--active {
+    background: #337ab7;
+}
+.MyLearningDashboard-body .input-range__label-container {
+    margin-left: 15px;
+    left: -50%;
+    position: relative;
+    font-size: 14px;
+    top: -15px;
+    color: #000;
+}
+span.input-range__label.input-range__label--max, span.input-range__label.input-range__label--min {
+    display: none;
+}
+
+.MyLearningDashboard-body .head_title {
+    font-size: 25px;
+    color: #00659c;
+    font-weight: 600;
+    padding-left: 0px;
+    font-family: Oswald;
+}
+.MyLearningDashboard-body-right p, .MyLearningDashboard-body-left-c p {
+    font-size: 17px;
+    line-height: 1.2;
+    height: 140px;
+    overflow: hidden;
+}
+.MyLearningDashboard-left-c{
+	padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #e6e6e6;
+}
+
+.MyLearningDashboard-left-c h4 {
+    font-size: 20px;
+}
+
+.MyLearningDashboard-body-content {
+    padding-top: 30px;
+}

@@ -1,0 +1,80 @@
+.assessments-style p {
+    max-width: 800px;
+    margin: auto;
+    font-size: 20px;
+    font-family: Oswald;
+    line-height: 1.3;
+    font-weight: 400;
+}
+.assessments-button-style{
+	max-width: 800px;
+    margin: auto;
+}
+.head_div {
+    padding-bottom: 15px;
+}
+.assessments-button {
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+.assessments-button-style a:nth-child(1) {
+    float: left;
+}
+.assessments-button-style a:nth-child(3) {
+    float: right;
+}
+.assessments-button-style {
+    text-align: center;
+}
+.assessments-button-style a {
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+
+
+a.btn.btn-default, .btn.btn-default  {
+    background: #27a744;
+    color: #fff;
+    height: 43px;
+    font-size: 15px;
+    border: 0px;
+}
+
+a.btn.btn-default:hover {
+    opacity: .8;
+}
+
+.btn-padd button.btn.btn-default.btn.btn-default {
+    margin: 5px;
+   
+}
+.assessments-button-custom .assessments-button {
+    margin-top: 50px;
+}
+.BootstrapTable-custom{
+    margin-top: 50px;
+}
+.react-bs-table-container.BootstrapTable-custom {
+    max-width: 100%;
+    margin: 0px auto 0 auto;
+    font-size: 20px;
+    font-family: Oswald;
+    line-height: 1.3;
+    font-weight: 400;
+}
+.BootstrapTable-custom .react-bs-table table td {
+    overflow: hidden;
+    white-space: inherit;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+.BootstrapTable-custom .react-bs-table table th:nth-child(3), .BootstrapTable-custom .react-bs-table table td:nth-child(3) {
+    width: 45% !important;
+}
+.BootstrapTable-custom .react-bs-table table th:nth-child(2), .BootstrapTable-custom .react-bs-table table td:nth-child(2) {
+    width: 25% !important;
+}
+.BootstrapTable-custom .react-bs-table table th:nth-child(4), .BootstrapTable-custom .react-bs-table table td:nth-child(4) ,
+.BootstrapTable-custom .react-bs-table table th:nth-child(5), .BootstrapTable-custom .react-bs-table table td:nth-child(5) {
+    text-align: center !important;
+}

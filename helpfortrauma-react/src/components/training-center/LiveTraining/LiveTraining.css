@@ -1,0 +1,17 @@
+.LiveTraining .head_title {
+    color: #00659c;
+}
+th.sort-column {
+    font-size: 17px !important;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    color: #fff;
+}
+.location-icon{
+    color: #337ab7;
+    margin-left: 20px;
+    font-size: 20px;
+}

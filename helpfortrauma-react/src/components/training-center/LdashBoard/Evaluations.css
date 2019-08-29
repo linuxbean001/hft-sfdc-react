@@ -1,0 +1,43 @@
+
+.Evalutions-vertical-line{
+    height: 800px;
+    border-right: 1px solid #ddd;
+}
+
+.Evalutions-top-border{
+    border-top: 1px solid #ddd;
+}
+.Evalutions-right-border{
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.Evalutions-float-right{
+    float: right;
+}
+.Evalutions-table-width{
+ width: 45%;
+}
+.Evalutions-padding-top{
+    padding-top: 25px;
+    float: right;
+}
+
+.Evalutions-margin-top{
+    margin-top: 15px;
+}
+.Evalutions-atc-margin{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Evalutions-btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    background-color: rgb(22, 177, 82) !important;
+    border-color: rgb(22, 177, 82) !important;
+}

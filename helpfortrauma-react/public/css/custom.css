@@ -1,0 +1,31 @@
+body {
+    font-family: 'Lato' !important; 
+    font-weight: 300 !important;
+}
+
+.page-element .contents p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300 !important;
+}
+body .isSelectedActive {
+    background-color: #ccab49 !important;
+    border-radius: 7px 7px 0px 0px;
+    color: black !important;
+}
+@media only screen and (min-width: 1200px) {
+	.navbar {
+	    height:47px !important;min-height:30px !important;
+	}
+	body .App-header {
+	  
+	    height: 70px;
+	}
+}
+@media only screen and (max-width: 1200px){
+
+	.navbar-header {
+	    float: none;
+	    text-align: center;
+	}
+
+}
